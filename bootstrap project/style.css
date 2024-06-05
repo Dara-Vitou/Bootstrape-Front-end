@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Oswald:wght@500&family=Poiret+One&family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    color: #222;
+}
+
+.navbar-brand:hover {
+    color: #222;
+}
+
+.nav-link {
+    color: #222;
+    font-size: 22px;
+}
+
+.nav-link:hover {
+    color: hsla(0, 0%, 0%, 0.6);
+}
+
+.login-nav {
+    margin-top: 30px;
+}
+
+.login-nav a {
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+.login-nav a:hover {
+    background-color: hsla(0, 0%, 13%, 0.3);
+    text-decoration: underline;
+}
+
+.d-block {
+    height: 700px;
+}
+
+.discount-img {
+    margin: 0px 50px;
+    padding-top:  50px;
+}
+
+.box {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-top: 100px;
+}
+
+.btn-shop {
+    margin-left: 57.5%;
+    margin-top: -15%;
+    font-weight: bolder;
+    border-radius: 30px;
+    width: 230px;
+    height: 60px;
+    border: 3px solid dodgerblue;
+}
+
+.btn-shop:hover {
+    color: dodgerblue;
+    background-color: #fff;
+    font-weight: bolder;
+}
+
+.icon {
+    margin-top: 50px;
+}
+
+.img-1 {
+    margin-left: -200px;
+}
+
+.img-3 {
+    margin-left: 200px;
+}
+
+.icon-1 {
+    margin-left: -140px;
+    font-size: 2rem;
+}
+
+.icon-2 {
+    margin-left: 60px;
+    font-size: 2rem;
+}
+
+.icon-3 {
+    margin-left: 250px;
+    font-size: 2rem;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.63);
+    transition: 0.5s ease-in-out;
+}
+
+/* footer */
+
+footer{
+    background: #343434;
+    padding-top: 50px;
+}
+.container-f{
+    color: white;
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 33.3%;
+}
+#h3-f{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+#f-link{
+    text-decoration: none;
+}
+#f-link:hover{
+    color: #f18930;
+}
+.social-icons i:hover{
+    color: #f18930;
+}
+.bottom-bar{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.bottom-bar p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
+
+/* button shop */
+
+.btn-dark {
+    width: 120px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+/* contact */
+
+.container-c {
+    border: 1px solid #222;
+    background-color: whitesmoke;
+    margin-bottom: 13%;
+    margin-top: 10%;
+    padding: 40px;  
+    border-radius: 24px;
+}
+
+.contact {
+    padding: 20px;
+    border-left: 1px solid black;
+}
+
+.contact-icon {
+    margin-bottom: 40px;
+}
+
+.contact-icon p {
+    font-size: 18px;
+    padding-left: 16px;
+    border-bottom: 2px solid dodgerblue;
+}
+
+.bg-img {
+    height: 100vh;
+    padding-top: 1%;
+    background-image: url("/img/bg-img.jpg");
+    background-size: cover;
+}
+
+/* login */
+
+.divider-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 0.5rem;
+    background-color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #999;
+}
+
+.divider {
+    margin: 2rem 0;
+}
+
+.a-login {
+    text-decoration: none;
+}
+
+.a-login:hover {
+    text-decoration: underline;
+}
+
+.btn-outline-costom {
+    color: #31374e;
+    border-color: #ddd;
+}
+
+.btn-outline-costom:hover {
+    color: #31374a;
+    border-color: #eee;
+    background-color: #eee;
+}
+
+.container-login {
+    border: 1px solid black;
+    background: whitesmoke;
+    border-radius: 20px;
+    width: 50%;
+}
+
+/* sign up */
+
+.container-sign-up {
+    border: 3px solid gray;
+    background-color: #FFF;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.acc-confirm p {
+    margin-top: 18px;
+}
+
+.acc-confirm a {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 18px;
+}
+
+.acc-confirm a:hover {
+    text-decoration: underline;
+}
+
+/* forgot password */
+
+.container-forgot {
+    border: 3px solid gray;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    padding: 25px;
+}
+
+.container-forgot a {
+    text-decoration: none;
+    color: #222;
+}
+
+.container-forgot a:hover {
+    text-decoration: underline;
+    color: #C0C0C0;
+}
+
+/* blog */
+
+.container-blog a:hover {
+    background-color: #fff;
+    color: #31374a;
+}
+
+/* about */
+
+.p-about {
+    margin: 35px 0px;
+}
+
+.btn-about {
+    width: 180px;
+}
+
+.btn-about:hover {
+    background-color: #fff;
+    color: #31374a;
+}
+
+/* payment */
+
+.form-cvc {
+    margin-left: 46%;
+}
+
+.btn-card {
+    height: 50px;
+}
+
+.btn-card:hover {
+    color: whitesmoke;
+    background-color: #222;
+    border: 1px solid #f9f9f9;
+}
+
+.back-to-profile {
+    font-size: small;
+    color: #222;
+    text-decoration: none;
+}
+
+.back-to-profile:hover {
+     text-decoration: underline;
+     color: hsla(0, 0%, 13%, 0.7);
+}
+
+.btn-place-order:hover {
+    color: dodgerblue;
+    background-color: #fff;
+    border: 1px solid dodgerblue;
+}
+
+/* change password */
+
+.img-forgot {
+    height: 680px;
+    width: 582px;
+}
+
+.change-pass {
+    margin-top: 130px;
+}
+
+.container-change {
+    padding: 40px;
+    border: 3px solid #9081ca;
+    border-radius: 18px;
+}
+
+.btn-change {
+    width: 265px;
+}
+
+.btn-change:hover {
+    background-color: #fff;
+    color: dodgerblue;
+}
